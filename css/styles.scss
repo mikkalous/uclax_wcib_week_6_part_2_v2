@@ -7,16 +7,16 @@
  */
 
 .site-header {
-  background-color: green;
+  background-color: #125A21;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: white;
+  color: #F0F6E9;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: #fff;
+  color: #F0F6E9;
   text-decoration: none;
 }
 
@@ -75,4 +75,8 @@
 
 .bg-light {
   background-color: #cdf5d6;
+}
+
+html {
+  font-family: Open Sans, Avenir, Futura, Gotham;
 }
