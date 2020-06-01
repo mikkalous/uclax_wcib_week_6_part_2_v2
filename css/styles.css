@@ -1,11 +1,12 @@
 .container {
-  max-width: 960px; }
+  max-width: 960px;
+  color: green; }
 
 /*
  * Custom translucent site header
  */
 .site-header {
-  background-color: black;
+  background-color: green;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   border: dashed #A3C82A; }
@@ -68,9 +69,6 @@
 .overflow-hidden {
   overflow: hidden; }
 
-.bg-light {
-  background-color: #cdf5d6; }
-
 p, h1, h2, h3, h4, body, main {
   font-family: Avenir, Futura, Gotham;
   font-weight: bold; }
@@ -94,3 +92,9 @@ h2 {
 
 .modal-body {
   background-image: url("images/trio.png"); }
+
+.bg-dark {
+  background-color: gray; }
+
+.bg-light {
+  background-color: green; }
