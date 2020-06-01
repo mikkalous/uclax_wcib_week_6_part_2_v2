@@ -5,7 +5,7 @@
  * Custom translucent site header
  */
 .site-header {
-  background-color: #125A21;
+  background-color: #black;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   border: dashed #A3C82A; }
@@ -93,4 +93,4 @@ h2 {
   color: #125A21; }
 
 .modal-body {
-  background-image: url("trio.png"); }
+  background-image: url("images/trio.png"); }
